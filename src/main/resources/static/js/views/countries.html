@@ -1,0 +1,33 @@
+
+  <div class="container">
+  countries
+    <h1>Greeting</h1>
+    <div ng-controller="GreetingController">
+      <div ng-repeat="greeting in greetings">
+<p>The ID is {{greeting.id}}</p>
+<p>The content is {{greeting.content}}</p>
+</div>
+    </div>
+  </div>
+  <div class="container">
+  <div  ng-controller="CountryController">
+	  <table>
+  <thead>
+    <tr>
+      <th width="200">Table Header</th>
+      <th>Table Header</th>
+      <th width="150">Table Header</th>
+      <th width="150">Table Header</th>
+    </tr>
+  </thead>
+  <tbody>
+  <tr ng-repeat="country in countries">
+  <td><a href=#/countries/{{country.name}}>{{country.name}}</td>
+  <td>{{country.capital}}</td>
+  <td>{{country.population}}</td>
+  <td>{{country.size}}</td>
+  </tr>
+  </tbody>
+  </table>
+  </div>
+  </div>

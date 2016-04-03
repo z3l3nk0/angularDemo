@@ -1,0 +1,38 @@
+#typeBaseBtn {
+	background: url(../img/baseBasic.png);
+	
+}
+#typeTopBtn {
+	background: url(../img/topBasic.png);
+	
+}
+
+#typeBaseBasic {
+	background: url(../img/baseBasic.png);
+	
+}
+#typeBaseStraight {
+	background: url(../img/baseStraight.png);
+	
+}
+#typeBaseTriangle {
+	background: url(../img/baseTriangle.png);
+	
+}
+
+.reseTypeBtn {
+	
+	height: 64px;
+	width: 64px;
+	box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
+	transition: box-shadow 200ms ease-out;
+	margin-bottom: 1rem; 
+	
+}
+
+.reseTypeBtn:hover {
+	box-shadow: 0 0 6px 1px rgba(33, 153, 232, 0.5);
+}
+.activeReseBtn {
+	box-shadow: 0 0 6px 1px rgba(33, 153, 232, 0.5);
+}
